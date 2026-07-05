@@ -1,10 +1,56 @@
-# Sound-Recognition-using-Google-Teachable-Machine
-This project demonstrates how machine learning can recognize different audio patterns without requiring extensive programming. Using Google Teachable Machine, I collected, trained, tested, and evaluated a custom sound classification model capable of identifying clap and finger snap sounds in real time.
-Project Workflow
+Overview
 
-✅ Collected multiple audio samples for both clap and finger snap sounds.
-✅ Recorded samples under different conditions to improve model robustness.
-✅ Trained the model using Google's Teachable Machine platform.
-✅ Tested the model with unseen sound samples.
-✅ Evaluated prediction accuracy and confidence scores.
-✅ Exported the trained model for deployment in web-based applications.
+This project demonstrates a real-time sound recognition system developed using Google Teachable Machine. The model is trained to classify two hand-generated sounds:
+
+ Clap
+ Finger Snap
+
+The project highlights how machine learning can be used to recognize audio patterns in real time through a browser-based application.
+
+Features:
+
+Real-time sound classification
+Browser-based prediction
+User-friendly interface
+Lightweight TensorFlow.js model
+Easy deployment using GitHub Pages
+
+Technologies Used:
+
+Google Teachable Machine
+TensorFlow.js
+HTML5
+CSS3
+JavaScript
+
+Project Workflow:
+
+Audio data collection
+Data labeling
+Model training
+Model evaluation
+Real-time prediction
+
+Applications:
+
+Smart Home Automation
+Human-Computer Interaction
+Accessibility Systems
+Interactive Learning
+IoT Applications
+
+Future Improvements:
+
+Add additional sound classes
+Improve prediction accuracy
+Deploy using cloud hosting
+Mobile compatibility
+
+Repository Structure:
+📂 model
+📂 js
+📂 images
+index.html
+style.css
+script.js
+README.md
